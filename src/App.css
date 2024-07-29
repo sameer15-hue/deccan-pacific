@@ -1,0 +1,273 @@
+.navbar {
+  color: white;
+  background-color: #333;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid whitesmoke;
+  box-shadow: 5px 5px 10px #888888;
+}
+.logo {
+  margin: auto;
+  cursor: pointer;
+}
+.logo:hover{
+  font-weight: bolder;
+}
+.navbar-Right {
+  display: flex;
+  margin: auto;
+}
+.navbar-Right div {
+  cursor: pointer;
+  margin: 0 30px 0 30px;
+}
+.admin {
+  margin: auto 10px auto auto;
+}
+.admin div {
+  cursor: pointer;
+}
+.navbar-Right div:hover {
+  font-weight: bolder;
+}
+
+/* Forms  */
+.formPage {
+  margin: 100px auto;
+  padding: 25px 70px 15px 70px;
+  text-align: center;
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 10px #888888;
+}
+.SubmitButton {
+  margin: 20px auto;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 10px #888888;
+}
+.SubmitButton:hover {
+  background-color: #333;
+  color: white;
+}
+
+#email,
+#subject,
+#name,
+#description,
+#Apt,
+#address,
+#password,
+#contactNumber,
+#problem {
+  margin: 20px auto;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  border: 2px solid black;
+
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 10px #888888;
+}
+
+/* About */
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+.image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3; /* Adjust opacity as needed */
+  z-index: -1; /* Ensure it's behind other content */
+  background-image: url('https://images.unsplash.com/photo-1613070561201-b0dccb982856?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+.vision-mission,
+.amenities,
+.sustainability,
+.resident-experience,
+.get-in-touch {
+  margin-top: 40px;
+}
+
+.vision-mission h3,
+.amenities h3,
+.sustainability h3,
+.resident-experience h3,
+.get-in-touch h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.vision-mission p,
+.amenities ul,
+.sustainability p,
+.resident-experience p,
+.get-in-touch p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.amenities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+}
+
+
+/* AdminLogin Page */
+
+.adminLoginPage {
+  margin: 100px auto;
+  padding: 25px 70px 15px 70px;
+  text-align: center;
+  border: 2px solid black;
+  width: fit-content;
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 10px #888888;
+}
+
+/* Table  */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.Table-top {
+  display: flex;
+  justify-content: space-between;
+}
+.CheckedItemsButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CheckedItemsButton:hover {
+  background-color: #45a049;
+}
+
+.SearchTag{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+  margin-right: 20px
+
+}
+/* .allQueries {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.allQueries:hover {
+  background-color: #dcdcdc;
+}
+
+.PendingQTable {
+  display: flex;
+  justify-content: center;
+} */
+
+.PendingQTable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PendingQTable input[type="text"] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+  margin-right: 20px; /* Adjust the margin to add space between the input and other elements */
+}
+
+.PendingQTable input[type="text"]:hover {
+  background-color: #e0e0e0;
+}
+
+.allQueries {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.allQueries:hover {
+  background-color: #dcdcdc;
+}
+
+
+
+
